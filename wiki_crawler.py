@@ -1,8 +1,7 @@
 import os
 import random
-import time
-
 import requests
+import time
 from bs4 import BeautifulSoup
 
 
@@ -92,6 +91,7 @@ def deep_crawl_wiki_article(url):
         wait_random_time()
 
     print("Finished crawling website: {0}.".format(url))
+
 
 # !!! FOR EDUCATIONAL PURPOSES ONLY! DO NOT USE THE TOOL WITHOUT PERMISSION OR LIMITS !!!
 deep_crawl_wiki_article("https://de.wikipedia.org/wiki/Quantenphysik")
